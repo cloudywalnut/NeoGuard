@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"c:\\\\NeoguardX\\\\neoguard\" -Force -Recurse)",
+      "Bash(Select-Object -Property FullName, Name)",
+      "Bash(Sort-Object FullName)",
+      "Bash(ConvertTo-Json)"
+    ]
+  }
+}

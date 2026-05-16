@@ -1,0 +1,49 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+:root {
+  --neoguard-rose: #F9A8D4;
+  --neoguard-rose-deep: #EC4899;
+  --neoguard-lavender: #C4B5FD;
+  --neoguard-purple: #7C3AED;
+  --neoguard-blush: #FDF2F8;
+  --neoguard-soft: #FAF5FF;
+  --status-safe: #86EFAC;
+  --status-warn: #FDE68A;
+  --status-alert: #FCA5A5;
+  --text-heading: #3B0764;
+  --text-body: #6B21A8;
+  --text-muted: #A78BFA;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ffffff;
+  color: #3B0764;
+}
+
+.scrollbar-thin {
+  scrollbar-width: thin;
+  scrollbar-color: #C4B5FD transparent;
+}
+
+.scrollbar-thin::-webkit-scrollbar {
+  width: 6px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background-color: #C4B5FD;
+  border-radius: 3px;
+}
